@@ -1,0 +1,23 @@
+[
+  {"model": "api.quete", "pk": 1, "fields": {"titre": "Créer son premier repo GitHub", "description": "Créez un repository public sur GitHub", "points": 50, "type_quete": "contribution", "icone": "🐙"}},
+  {"model": "api.quete", "pk": 2, "fields": {"titre": "Compléter un cours en ligne", "description": "Terminez un cours sur Udemy, Coursera ou équivalent", "points": 75, "type_quete": "formation", "icone": "📚"}},
+  {"model": "api.quete", "pk": 3, "fields": {"titre": "Déployer une application", "description": "Mettez en ligne votre première application web", "points": 100, "type_quete": "projet", "icone": "🚀"}},
+  {"model": "api.quete", "pk": 4, "fields": {"titre": "Obtenir une certification", "description": "Décrochez une certification reconnue", "points": 150, "type_quete": "certification", "icone": "🏆"}},
+  {"model": "api.quete", "pk": 5, "fields": {"titre": "Contribuer à un projet open source", "description": "Faites une pull request acceptée", "points": 200, "type_quete": "contribution", "icone": "⭐"}},
+  {"model": "api.quete", "pk": 6, "fields": {"titre": "Créer un portfolio", "description": "Publiez votre portfolio en ligne", "points": 80, "type_quete": "projet", "icone": "💼"}},
+  {"model": "api.quete", "pk": 7, "fields": {"titre": "Faire un projet en équipe", "description": "Collaborez sur un projet avec au moins 2 autres devs", "points": 120, "type_quete": "projet", "icone": "👥"}},
+  {"model": "api.quete", "pk": 8, "fields": {"titre": "Maîtriser Docker", "description": "Containerisez une application complète", "points": 90, "type_quete": "formation", "icone": "🐳"}},
+
+  {"model": "api.competence", "pk": 1, "fields": {"nom": "HTML/CSS", "categorie": "frontend", "niveau_requis": 1}},
+  {"model": "api.competence", "pk": 2, "fields": {"nom": "JavaScript", "categorie": "frontend", "niveau_requis": 1}},
+  {"model": "api.competence", "pk": 3, "fields": {"nom": "React", "categorie": "frontend", "niveau_requis": 3}},
+  {"model": "api.competence", "pk": 4, "fields": {"nom": "Python", "categorie": "backend", "niveau_requis": 1}},
+  {"model": "api.competence", "pk": 5, "fields": {"nom": "Django", "categorie": "backend", "niveau_requis": 3}},
+  {"model": "api.competence", "pk": 6, "fields": {"nom": "Node.js", "categorie": "backend", "niveau_requis": 3}},
+  {"model": "api.competence", "pk": 7, "fields": {"nom": "Docker", "categorie": "devops", "niveau_requis": 2}},
+  {"model": "api.competence", "pk": 8, "fields": {"nom": "Kubernetes", "categorie": "devops", "niveau_requis": 5}},
+  {"model": "api.competence", "pk": 9, "fields": {"nom": "Git", "categorie": "devops", "niveau_requis": 1}},
+  {"model": "api.competence", "pk": 10, "fields": {"nom": "PostgreSQL", "categorie": "data", "niveau_requis": 2}},
+  {"model": "api.competence", "pk": 11, "fields": {"nom": "MongoDB", "categorie": "data", "niveau_requis": 2}},
+  {"model": "api.competence", "pk": 12, "fields": {"nom": "CI/CD", "categorie": "devops", "niveau_requis": 4}}
+]
